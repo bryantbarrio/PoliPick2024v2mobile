@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoliPick2024</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 3em;">PoliPick2024</h1> <!-- Updated header text and increased size -->
+    </header>
+
+    <!-- Image section at the very top -->
+    <section id="image-top">
+        <img id="img-top-u2" src="pic2.png" alt="Donald Trump" style="float: left; width: 150px; height: auto;"> <!-- Set to half size -->
+        <img id="img-top-u1" src="pic3.png" alt="Kamala Harris" style="float: right; width: 150px; height: auto;"> <!-- Set to half size -->
+    </section>
+
+    <!-- Welcome Message Section -->
+    <section id="welcome-message" style="text-align: center; margin: 20px auto; padding: 20px; background: rgba(255, 255, 255, 0.1); border-radius: 8px; max-width: 600px;">
+        <p>Welcome to PoliPick 2024! This website is designed to help you pick your candidate for the upcoming election. There are topics and two options. Choose the option that resonates most with your morals. Each question has an input of weight so you can put importance on the topics you care about the most. After choosing the importance and each option for each topic, press calculate to see which candidate is the best fit for you.</p>
+    </section>
+    
+    <main>
+        <section id="topic-container">
+            <!-- Topics will be dynamically inserted here -->
+        </section>
+
+        <button id="calculate-btn">Calculate Scores</button>
+
+        <!-- Results Section -->
+        <section id="results">
+            <h2 style="color: white;">Results</h2> <!-- Ensure results heading is white -->
+            <div id="result-display"></div> <!-- Display scores here -->
+            <div id="image-display">
+                <img id="img-u1" src="pic3.png" alt="Image for Kamala Harris" style="display:none; width:100px;">
+                <img id="img-u2" src="pic2.png" alt="Image for Donald Trump" style="display:none; width:100px;">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Bryant Barrio Diego Garay </p>
+    </footer>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
