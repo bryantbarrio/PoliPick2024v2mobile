@@ -32,11 +32,21 @@ h2 {
 #welcome-message {
     margin: 20px auto; /* Center the box with auto left and right margins */
     background: rgba(255, 255, 255, 0.1); /* More transparent background for topics */
-    padding: 20px; /* More padding for a spacious feel */
+    padding: 20px; /* Increased padding for better spacing */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Enhanced shadow for depth */
     text-align: center; /* Center the text */
-    max-width: 600px; /* Set a max-width for the box */
+    max-width: 90%; /* Allow more width on mobile */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+}
+
+#welcome-message img {
+    width: 80%; /* Set images to take 80% of the container width */
+    max-width: 300px; /* Prevent images from exceeding 300px in width */
+    margin: 10px 0; /* Add some vertical margin between images and text */
+    border-radius: 4px; /* Optional: round image corners */
 }
 
 #topic-container {
@@ -152,23 +162,17 @@ footer {
     }
 
     #topic-container {
-        flex-direction: column; /* Stack topics vertically */
+        flex-direction: column; /* Stack topics vertically on mobile */
+        align-items: center; /* Center align topics */
     }
 
     .topic {
-        flex: 0 1 100%; /* Make each topic take full width */
-        max-width: 100%; /* Prevent exceeding screen width */
-    }
-
-    .description {
-        font-size: 1em; /* Adjust font size for better readability */
+        flex: 0 1 100%; /* Full width on mobile */
+        max-width: 100%; /* Full width on mobile */
     }
 
     button {
-        width: 100%; /* Make buttons full-width on mobile */
-    }
-
-    #remaining-display {
-        font-size: 12px; /* Reduce font size for remaining display */
+        width: 100%; /* Full width for buttons on mobile */
+        margin-top: 10px; /* Reduce margin */
     }
 }
