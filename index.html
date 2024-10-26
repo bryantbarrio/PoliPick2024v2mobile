@@ -3,23 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PoliPick2024</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Lobster&display=swap" rel="stylesheet">
+    <title>Candidate Connect</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+    
 <body>
     <header>
-        <h1 style="font-size: 3em;">PoliPick2024</h1> <!-- Updated header text and increased size -->
+        <h1><span class="candidate">Candidate</span> <span class="connect">Connect</span></h1>
     </header>
 
     <!-- Image section at the very top -->
     <section id="image-top">
-        <img id="img-top-u2" src="pic2.png" alt="Donald Trump" style="float: left; width: 150px; height: auto;"> <!-- Set to half size -->
-        <img id="img-top-u1" src="pic3.png" alt="Kamala Harris" style="float: right; width: 150px; height: auto;"> <!-- Set to half size -->
+        <img id="img-top-u2" src="pic3.png" alt="Donald Trump" style="float: left; width: 150px; height: auto;">
+        <img id="img-top-u1" src="pic2.png" alt="Kamala Harris" style="float: right; width: 150px; height: auto;">
     </section>
 
     <!-- Welcome Message Section -->
-    <section id="welcome-message" style="text-align: center; margin: 20px auto; padding: 20px; background: rgba(255, 255, 255, 0.1); border-radius: 8px; max-width: 600px;">
-        <p>Welcome to PoliPick 2024! This website is designed to help you pick your candidate for the upcoming election. There are topics and two options. Choose the option that resonates most with your morals. Each question has an input of weight so you can put importance on the topics you care about the most. After choosing the importance and each option for each topic, press calculate to see which candidate is the best fit for you.</p>
+    <section id="welcome-message" style="text-align: center; margin: 20px auto; padding: 20px; background: rgba(255, 255, 255, 0); border-radius: 8px; max-width: 600px;">
+        <h2>Welcome to Candidate Connect!</h2>
+        <p style="margin-top: 20px;">This website is designed to assist you in selecting your preferred candidate for the upcoming election. Here’s how it works:</p>
+        <ul style="text-align: center; margin: 20px auto; padding-left: 0; list-style-position: inside;">
+            <li>Explore various topics and two distinct options for each.</li>
+            <li>Choose the option that aligns most with your values.</li>
+            <li>Assign a weight to emphasize the topics that matter most to you.</li>
+            <li>Remember, the total importance points cannot exceed 100.</li>
+            <li>After setting the importance for each topic and making your selections, click calculate to find out which candidate best matches your preferences.</li>
+        </ul>
     </section>
     
     <main>
@@ -33,6 +43,7 @@
         <section id="results">
             <h2 style="color: white;">Results</h2> <!-- Ensure results heading is white -->
             <div id="result-display"></div> <!-- Display scores here -->
+            <div id="policy-links"></div> <!-- Links to policy websites will be displayed here -->
             <div id="image-display">
                 <img id="img-u1" src="pic3.png" alt="Image for Kamala Harris" style="display:none; width:100px;">
                 <img id="img-u2" src="pic2.png" alt="Image for Donald Trump" style="display:none; width:100px;">

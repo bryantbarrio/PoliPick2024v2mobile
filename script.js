@@ -3,71 +3,71 @@ const topics = [
     {
         name: "AI and Technology",
         descriptions: [
-            "There is a strong emphasis on the need for a federal approach to ensure that companies use AI tools responsibly. This perspective advocates for the creation of regulatory frameworks to prevent misuse and protect public interests while managing and slowing down advancements in AI and related technologies from competing nations, focusing on national security and economic competitiveness.",
-            "The introduction of national strategies for addressing emerging technologies, such as AI and cybersecurity, is viewed as essential for safeguarding national interests. This view frames the development of AI as an arms race with rival nations, underscoring a sense of urgency and competition. Additionally, concerns have been raised regarding the influence of major tech companies, highlighting a complicated relationship between the government and private entities in the technology sector."
+            "Advocates for a comprehensive national strategy to ensure that artificial intelligence (AI) is developed and deployed responsibly, focusing on equity, accountability, and public safety in the technology sector.",
+            "Emphasizes the need for aggressive measures to confront global competition in technology and innovation, promoting American leadership while prioritizing economic and national security."
         ]
     },
     {
         name: "China",
         descriptions: [
-            "The United States needs to hold China accountable for human rights violations and distortions in the global economy, while also emphasizing the importance of collaboration on transnational challenges. This perspective advocates for a balanced approach, recognizing that cooperation is necessary in areas of mutual concern despite significant tensions.",
-            "There is a call for aggressive action to confront China regarding what are perceived as economic abuses. This view emphasizes the need to protect American workers and reduce the large bilateral trade deficit with China, suggesting that a more confrontational stance is essential for addressing these issues."
+            "Calls for holding China accountable for human rights violations and unfair trade practices while promoting collaboration on global issues such as climate change and health security.",
+            "Proposes a firm stance against China, including a focus on reducing the trade deficit and addressing issues related to intellectual property theft, viewing these actions as essential for protecting American interests."
         ]
     },
     {
         name: "Climate Change",
         descriptions: [
-            "The climate crisis is an “existential threat” to humanity. There has been strong support for policies that rejoin international agreements like the Paris Agreement and efforts to pass significant clean energy and climate investment legislation.",
-            "Skepticism about the science of climate change is prevalent, with pledges to expand domestic fossil fuel production and overhaul current clean energy initiatives, including withdrawing from major global climate efforts."
+            "Recognizes climate change as a significant threat and advocates for rejoining the Paris Agreement, along with substantial investments in clean energy and infrastructure to combat the crisis.",
+            "Challenges the consensus on climate change science and prioritizes domestic energy production, including fossil fuels, while advocating for policies that support economic growth."
         ]
     },
     {
         name: "Defense and NATO",
         descriptions: [
-            "Support for multilateral cooperation and the North Atlantic Treaty Organization (NATO) has been emphasized, along with a commitment to Ukraine and advancements in domestic space policy.",
-            "Criticism of NATO has been prevalent, with threats to withdraw from the alliance and significant increases in defense spending focused on countering threats from China and Russia."
+            "Supports multilateral cooperation and strengthening NATO, emphasizing commitment to allies and addressing contemporary security challenges, including cybersecurity.",
+            "Critiques NATO and suggests reviewing financial commitments to the alliance while advocating for increased defense spending to counter threats from rival nations."
         ]
     },
     {
         name: "Global Health and Pandemic Prevention",
         descriptions: [
-            "There has been a strong focus on national and international health-care issues, including support for reproductive rights and addressing the opioid epidemic.",
-            "Leadership during the COVID-19 pandemic included massive economic stimulus and the development of a vaccine, coupled with a withdrawal from the WHO and restrictions on abortion-related funding."
+            "Emphasizes a commitment to strengthening public health systems and ensuring equitable access to healthcare, including reproductive rights and addressing the opioid epidemic.",
+            "Prioritizes national interests in health policy and suggests reducing involvement in international health organizations while focusing on domestic health issues."
         ]
     },
     {
         name: "Immigration and Border Security",
         descriptions: [
-            "Advocacy for comprehensive immigration reform is prominent, including efforts to address root causes of migration, though some statements have sparked controversy.",
-            "Immigration remains a key issue, with commitments to reduce both legal and illegal immigration and reshape asylum, border, and deportation policies."
+            "Advocates for comprehensive immigration reform that addresses root causes of migration and provides pathways to citizenship, while ensuring humane treatment of immigrants.",
+            "Focuses on stricter immigration enforcement, advocating for measures to reduce both legal and illegal immigration, and enhancing border security."
         ]
     },
     {
         name: "Inflation Debt and the Economy",
         descriptions: [
-            "Economic policy focuses on creating opportunities for the middle class through public investments in infrastructure and green energy, as well as challenging monopolistic practices.",
-            "Emphasis has been placed on tax cuts and deregulation to stimulate growth, with calls for massive cuts in government spending to combat inflation."
+            "Promotes economic policies that invest in infrastructure, clean energy, and middle-class opportunities to foster equitable growth and reduce the national debt.",
+            "Prioritizes tax cuts and deregulation to stimulate economic growth, emphasizing the need for significant cuts in government spending to address inflation."
         ]
     },
     {
         name: "Israel Gaza and the Middle East",
         descriptions: [
-            "Support for cease-fires and solutions to the Israeli-Palestinian conflict includes advocating for a two-state solution and restrictions on arms sales to certain countries.",
-            "A strong alignment with Israel and Saudi Arabia is emphasized, coupled with a confrontational stance toward Iran and reluctance to support a separate Palestinian state."
+            "Supports a two-state solution and advocates for addressing humanitarian needs in Gaza while promoting diplomatic efforts for peace in the region.",
+            "Emphasizes strong support for Israel, advocating for increased military assistance while adopting a hardline stance towards adversaries in the Middle East."
         ]
     },
     {
         name: "Russia-Ukraine",
         descriptions: [
-            "There is a commitment to support Ukraine against Russia’s aggression, including financial assistance and participation in peace talks.",
-            "Doubts have been expressed regarding the continuation of U.S. aid to Ukraine, alongside a history of warmer relations with Russia."
+            "Commits to supporting Ukraine in its defense against aggression through military aid and diplomatic channels, while promoting regional stability.",
+            "Questions the continuation of U.S. aid to Ukraine, advocating for a more cautious approach to foreign engagements and prioritizing national interests."
         ]
     },
     {
         name: "Trade",
         descriptions: [
-            "A focus on rebalancing trade towards domestic production is emphasized, with critiques of the global trading system as rigged against U.S. interests.",
-            "An emphasis on confronting economic abuses and a commitment to transforming the U.S. into a manufacturing superpower are key components."
+            "Advocates for rebalancing trade to support domestic manufacturing and protect American workers from unfair trade practices.",
+            "Emphasizes a focus on confronting economic abuses from trading partners and prioritizing American manufacturing as a strategy to enhance economic strength."
         ]
     }
 ];
